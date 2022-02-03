@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/* HEADER */
 .header-section {
     display: flex;
     background-color: #1f2937;
@@ -36,4 +36,45 @@ li {
 a {
     text-decoration: none;
     color: white;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+.hero-left {
+    width: 500px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(248, 242, 242);
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+.hero-left button {
+    background-color: #3882f6;
+    padding: 10px 30px;
+    color: #f9faf8;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.hero-section img {
+    width: 500px;
 }
