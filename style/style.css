@@ -182,3 +182,13 @@ h2 {
 .text-part p {
     font-size: 18px;
 }
+
+.footer {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    flex: 1;
+    color: white;
+}
