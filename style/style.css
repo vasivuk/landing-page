@@ -124,3 +124,28 @@ h2 {
     font-size: 20px;
     margin-bottom: 120px;
 }
+
+/* QUOTE SECTION */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 180px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 20px;
+    color: #1f2937;
+    font-style: italic;
+}
