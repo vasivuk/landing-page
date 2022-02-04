@@ -149,3 +149,36 @@ h2 {
     color: #1f2937;
     font-style: italic;
 }
+
+.call-to-action-section {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    margin: 200px 100px;
+    border-radius: 10px;
+    color: white;
+    gap: 30px;
+}
+
+.call-to-action-section button {
+    flex-shrink: 1;
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-part h3 {
+    font-size: 30px;
+}
+
+.text-part p {
+    font-size: 18px;
+}
